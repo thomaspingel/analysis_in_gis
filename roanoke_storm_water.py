@@ -5,7 +5,7 @@ import arcpy
 from arcgis.features import GeoAccessor, GeoSeriesAccessor
 
 # Define workspace
-arcpy.env.workspace = "./sedf_example.gdb"
+arcpy.env.workspace = "data/sedf_example.gdb"
 
 # Load layers
 sdf = pd.DataFrame.spatial.from_featureclass("storm_points")
