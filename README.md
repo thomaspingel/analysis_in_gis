@@ -10,6 +10,7 @@ These notebooks with require an installation of [ArcGIS Pro](https://apps.itpals
 conda create --name analysis_in_gis --file https://nearearthimaginglab.org/python/neil.20220730.txt
 conda activate analysis_in_gis
 pip install notebook-as-pdf
+pip install pypdf2==2
 ~~~
 From here, you should be able to close the window, and use normally except that: when you open the Anaconda command window, in addition to changing directory to your working directory you'll need to type
 ~~~
